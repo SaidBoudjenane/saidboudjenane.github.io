@@ -31,8 +31,14 @@ a {
     padding: 0.8rem 1.5rem;
 }
 
-#infos-list li:not(:last-child) {
-    margin-bottom: 6px;
+#infos-uls {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+#infos .infos-list li:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 ul {
@@ -46,6 +52,10 @@ ul {
 
 #location {
     vertical-align: middle;
+}
+
+#langues {
+    margin-top: 1rem;
 }
 
 /* Parcours */
@@ -121,6 +131,19 @@ ul {
     min-width: 4rem;
 }
 
+.skills-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-title .skills-rating:first-child ul {
+    padding-left: 0;
+}
+
+.skills-rating ul {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 854px) {
     .exp-infos {
         padding: 0.5rem 1rem;
@@ -128,5 +151,33 @@ ul {
     
     .formation {
         gap: 1rem;
+    }
+
+    .skills-title, #infos-uls {
+        flex-direction: column;
+    }
+
+    #skills ul {
+        padding: 0;
+    }
+   
+    .skills-title .skills-rating:first-child ul {
+        margin-bottom: 0;
+    }
+
+    .exp-infos .formation:first-child .title-infos {
+        margin-top: 1rem;
+    }
+
+    #infos ul {
+        padding: 0;
+    }
+    
+    #infos {
+        padding: 0.2rem 1rem;
+    }
+
+    #infos-uls {
+        gap: 0;
     }
 }
