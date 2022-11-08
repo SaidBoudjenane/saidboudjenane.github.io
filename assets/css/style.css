@@ -45,9 +45,17 @@ ul {
     list-style: none;
 }
 
+svg {
+    fill: white;
+    height: 1rem;
+    vertical-align: top;
+    width: 18px;
+}
+
 .material-symbols-outlined {
-    font-size: 18px;
+    font-size: 19px;
     vertical-align:middle;
+    color: white;
 }
 
 #location {
