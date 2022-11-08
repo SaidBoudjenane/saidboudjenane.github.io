@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono';
+    background-color: #FCFFFD;
+    box-sizing: border-box;
+}
+
+.color-blue {
+    color: #263D67;
+}
+
+.color-white {
+    color: #f8f8f8;
+}
+
+a {
+    color: #6693e5;
+}
+
+/* Titre */
+
+#title {
+    margin-left: 40%;
+    transform: translate(-40%);
+}
+
+/* Infos */
+
+#infos {
+    background-color: #263D67;
+    padding: 1rem 2rem;
+}
+
+#infos-list li:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+ul {
+    list-style: none;
+}
+
+.material-symbols-outlined {
+    font-size: 18px;
+    vertical-align:middle;
+}
+
+#location {
+    vertical-align: middle;
+}
+
+/* Parcours */
+
+#experience > div {
+    margin-top: 1rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.separator {
+    width: 85%;
+    border-top: 4px solid #263D67;
+    margin-top: 2.1rem;
+}
+
+.subtitle {
+    padding: 0 3rem;
+}
+
+.small-separator {
+    border-top: 3px solid #FCFFFD;
+    width: 2rem;
+    margin-top: 1.6rem; 
+    display: inline;
+}
+
+.exp-infos {
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    height: auto;
+    background-color: #263D67;
+    width: 95%;
+    display: flex;
+    align-items: middle;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    gap: 0.8rem;
+}
+
+.formation {
+    display: flex;
+    align-items: middle;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.title-infos {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#diplomes {
+    margin-bottom: 2rem;
+}
