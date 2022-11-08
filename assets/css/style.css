@@ -28,7 +28,7 @@ a {
 
 #infos {
     background-color: #263D67;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.5rem;
 }
 
 #infos-list li:not(:last-child) {
@@ -85,7 +85,6 @@ ul {
     background-color: #263D67;
     width: 95%;
     display: flex;
-    align-items: middle;
     justify-content: center;
     flex-direction: column;
     padding: 2rem 4rem;
@@ -94,7 +93,6 @@ ul {
 
 .formation {
     display: flex;
-    align-items: middle;
     flex-direction: row;
     justify-content: flex-start;
     gap: 2rem;
@@ -108,4 +106,27 @@ ul {
 
 #diplomes {
     margin-bottom: 2rem;
+}
+
+.scrolling-element {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.other-infos {
+    color: #c5d3fe;
+}
+
+.dates {
+    min-width: 4rem;
+}
+
+@media screen and (max-width: 854px) {
+    .exp-infos {
+        padding: 0.5rem 1rem;
+    }
+    
+    .formation {
+        gap: 1rem;
+    }
 }
