@@ -28,13 +28,19 @@ a {
 
 #infos {
     background-color: #263D67;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 2.5rem;
 }
 
 #infos-uls {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     gap: 3rem;
+}
+
+#infos-uls ul {
+
+    padding-left: 0;
 }
 
 #infos .infos-list li:not(:last-child) {
@@ -120,9 +126,10 @@ svg {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    flex: 1 1;
 }
 
-#diplomes {
+#skills {
     margin-bottom: 2rem;
 }
 
@@ -152,6 +159,10 @@ svg {
     margin-top: 0;
 }
 
+#infos-uls ul {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 854px) {
     .exp-infos {
         padding: 0.5rem 0.8rem;
@@ -167,14 +178,6 @@ svg {
 
     #skills ul {
         padding: 0;
-    }
-   
-    .skills-title .skills-rating:first-child ul {
-        margin-bottom: 0;
-    }
-
-    .exp-infos .formation:first-child .title-infos {
-        margin-top: 1rem;
     }
 
     #infos ul {
@@ -193,7 +196,11 @@ svg {
         padding-right: 0.1rem;
     }
 
-    .dates {
-        min-width: 2.5rem;
+    .exp-infos .formation:last-child {
+        margin-bottom: 1rem;
+    }
+
+    #skills .formation:last-child {
+        margin-bottom: 0;
     }
 }
