@@ -81,7 +81,7 @@ svg {
 .separator {
     width: 85%;
     border-top: 4px solid #263D67;
-    margin-top: 2.1rem;
+    margin-top: 2.2rem;
 }
 
 .subtitle {
@@ -154,7 +154,7 @@ svg {
 
 @media screen and (max-width: 854px) {
     .exp-infos {
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.8rem;
     }
     
     .formation {
@@ -187,5 +187,13 @@ svg {
 
     #infos-uls {
         gap: 0;
+    }
+
+    #skills .exp-infos {
+        padding-right: 0.1rem;
+    }
+
+    .dates {
+        min-width: 2.5rem;
     }
 }
