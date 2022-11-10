@@ -265,7 +265,7 @@ svg {
         justify-content: center;
     }
 
-    #font-wrapper {
-        font-size: 32px;
+    #title-wrapper {
+        font-size: 80%;
     }
 }
