@@ -214,7 +214,7 @@ svg {
     }
     
     .formation {
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .skills-title, #infos-uls {
@@ -267,5 +267,9 @@ svg {
 
     #title-wrapper {
         font-size: 80%;
+    }
+
+    .small-separator {
+        width: 1rem;
     }
 }
