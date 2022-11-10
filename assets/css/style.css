@@ -32,7 +32,7 @@ a {
 }
 
 #avatar {
-    height: 8rem;
+    height: 7rem;
 }
 
 /* Infos */
@@ -263,6 +263,9 @@ svg {
 
     #title {
         justify-content: center;
+    }
+
+    #font-wrapper {
         font-size: 80%;
     }
 }
