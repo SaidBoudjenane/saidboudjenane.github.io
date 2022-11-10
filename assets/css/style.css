@@ -263,5 +263,6 @@ svg {
 
     #title {
         justify-content: center;
+        font-size: 80%;
     }
 }
