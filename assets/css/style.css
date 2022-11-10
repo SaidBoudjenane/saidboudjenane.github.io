@@ -260,4 +260,8 @@ svg {
     .illustration {
         display: none !important;
     }
+
+    #title {
+        justify-content: center;
+    }
 }
